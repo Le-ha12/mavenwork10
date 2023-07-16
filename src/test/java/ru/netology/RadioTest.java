@@ -84,9 +84,9 @@ import org.junit.jupiter.api.Test;
 
         @Test
         public void shouldNotAddSound() { //громкость с максимума не изменяется
-            radio.setSoundVolume(10);
+            radio.setSoundVolume(100);
             radio.volumeUp();
-            int expected = 10;
+            int expected = 100;
             int actual = radio.getSoundVolume();
 
             Assertions.assertEquals(expected, actual);

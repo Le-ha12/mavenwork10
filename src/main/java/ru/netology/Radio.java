@@ -43,8 +43,8 @@ public class Radio {
     }
 
     protected void volumeUp() {
-        if (soundVolume == 10) {
-            soundVolume = 10;
+        if (soundVolume == 100) {
+            soundVolume = 100;
         } else {
 
             soundVolume = soundVolume + 1;
